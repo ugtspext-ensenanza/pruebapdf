@@ -1,4 +1,6 @@
 function generarPDF() {
+  window.jsPDF = window.jspdf.jsPDF
+  
   // Obtener datos del formulario
   const nombre = document.getElementById("nombre").value;
   const apellido = document.getElementById("apellido").value;
